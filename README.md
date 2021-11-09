@@ -35,3 +35,5 @@ You can use the /addKarma command to add or subrtact karma, and use /karma or th
 You can only have one lantern ring at a time, but can use the command /reset to gain another
 
 After obtaining your Lantern Corps ring, simply put it in your off hand, and all of your abilities will activate
+
+
