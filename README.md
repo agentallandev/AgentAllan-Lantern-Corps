@@ -29,6 +29,9 @@ White/Life | 100
 
 
 After obtaining the proper karma level for your lantern corps, right click the Blank Ring to recieve your Lantern ring
+
 You can use the /addKarma command to add or subrtact karma, and use /karma or the karma keybind (*k* by default) to view your current karma
+
 You can only have one lantern ring at a time, but can use the command /reset to gain another
+
 After obtaining your Lantern Corps ring, simply put it in your off hand, and all of your abilities will activate
