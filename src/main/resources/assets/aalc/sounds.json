@@ -1,0 +1,12 @@
+{
+  "lantern_transform": {
+    "category": "player",
+    "subtitle": "subtitles.lantern_transform",
+    "sounds": [
+      {
+        "name": "aalc:untitled_2",
+        "stream": false
+      }
+    ]
+  }
+}

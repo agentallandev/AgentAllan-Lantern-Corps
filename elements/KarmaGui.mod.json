@@ -1,0 +1,35 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 128,
+    "height": 96,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Karma : <VAR:karma>",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "Karma : <VAR:karma>",
+          "x": 182,
+          "y": 112
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

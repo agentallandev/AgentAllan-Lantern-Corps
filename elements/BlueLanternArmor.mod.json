@@ -1,0 +1,61 @@
+{
+  "_fv": 24,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "blank",
+    "enableBody": true,
+    "textureBody": "blank",
+    "enableLeggings": true,
+    "textureLeggings": "blank",
+    "enableBoots": true,
+    "textureBoots": "blank",
+    "onBodyTick": {
+      "name": "GreenLanternArmorBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "armorTextureFile": "hope_",
+    "helmetName": "Blue Lantern Mask",
+    "bodyName": "Blue Lantern Suit Chest",
+    "leggingsName": "Blue Lantern Suit Pants",
+    "bootsName": "Blue Lantern Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modellantern_suit",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "bl_armor.png",
+    "bodyModelName": "Modellantern_suit",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "bl_armor.png",
+    "leggingsModelName": "Modellantern_suit",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "bl_armor.png",
+    "bootsModelName": "Modellantern_suit",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "bl_armor.png",
+    "helmetImmuneToFire": true,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": true,
+    "bootsImmuneToFire": true,
+    "maxDamage": 75,
+    "damageValueHelmet": 6,
+    "damageValueBody": 18,
+    "damageValueLeggings": 15,
+    "damageValueBoots": 6,
+    "enchantability": 9,
+    "toughness": 4.0,
+    "knockbackResistance": 0.5,
+    "equipSound": {
+      "value": "CUSTOM:lantern_transform"
+    },
+    "repairItems": []
+  }
+}

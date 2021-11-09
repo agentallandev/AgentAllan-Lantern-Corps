@@ -1,0 +1,42 @@
+{
+  "group": "aalc",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aalc:emotional_shard"
+    },
+    "1": {
+      "item": "aalc:emotional_shard"
+    },
+    "2": {
+      "item": "aalc:emotional_shard"
+    },
+    "3": {
+      "item": "aalc:emotional_shard"
+    },
+    "4": {
+      "item": "minecraft:diamond_block"
+    },
+    "5": {
+      "item": "aalc:emotional_shard"
+    },
+    "6": {
+      "item": "aalc:emotional_shard"
+    },
+    "7": {
+      "item": "aalc:emotional_shard"
+    },
+    "8": {
+      "item": "aalc:emotional_shard"
+    }
+  },
+  "result": {
+    "item": "aalc:ring_core",
+    "count": 1
+  }
+}

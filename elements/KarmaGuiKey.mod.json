@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "K",
+    "keyBindingName": "Karma Gui Key",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "KarmaCommandExecuted"
+    }
+  }
+}

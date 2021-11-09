@@ -1,0 +1,1176 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "GreenLanternArmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "green_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LanternCorps",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lantern_corps"
+    },
+    {
+      "name": "BlankRingItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_ring_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WillRing",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "will_ring"
+    },
+    {
+      "name": "RageRing",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rage_ring"
+    },
+    {
+      "name": "CompassionRing",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "compassion_ring"
+    },
+    {
+      "name": "LoveRing",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "love_ring"
+    },
+    {
+      "name": "GreedRing",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greed_ring"
+    },
+    {
+      "name": "FearRing",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fear_ring"
+    },
+    {
+      "name": "HopeRing",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hope_ring"
+    },
+    {
+      "name": "LifeRing",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_ring"
+    },
+    {
+      "name": "DeathRing",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "death_ring"
+    },
+    {
+      "name": "BlankRing",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_ring"
+    },
+    {
+      "name": "KarmaSetCommandExecuted",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_set_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KarmaSet",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_set"
+    },
+    {
+      "name": "KarmaAddCommandExecuted",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_add_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "cmdparams",
+            "type": "map"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KarmaAdd",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_add"
+    },
+    {
+      "name": "ResetRingCommandExecuted",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reset_ring_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResetRing",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "reset_ring"
+    },
+    {
+      "name": "KarmaCommandExecuted",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Karma",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma"
+    },
+    {
+      "name": "KarmaGui",
+      "type": "gui",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_gui"
+    },
+    {
+      "name": "KarmaGuiKey",
+      "type": "keybind",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_gui_key"
+    },
+    {
+      "name": "WillRingItemInHandTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "will_ring_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RingPowers",
+      "type": "rangeditem",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "will_ring_powers"
+    },
+    {
+      "name": "WillRingRightClickedInAir",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "will_ring_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenLanternParticle",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_lantern_particle"
+    },
+    {
+      "name": "GreenLanternArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_lantern_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedLanternArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "red_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "YellowLanternArmor",
+      "type": "armor",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "yellow_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "OrangeLanternArmor",
+      "type": "armor",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "orange_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlueLanternArmor",
+      "type": "armor",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "blue_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PinkLanternArmor",
+      "type": "armor",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "pink_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "IndigoLanternArmor",
+      "type": "armor",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "indigo_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BlackLanternArmor",
+      "type": "armor",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "black_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "WhiteLanternArmor",
+      "type": "armor",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "white_lantern_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RedRingPowers",
+      "type": "rangeditem",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_ring_powers"
+    },
+    {
+      "name": "YellowRingPowers",
+      "type": "rangeditem",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_ring_powers"
+    },
+    {
+      "name": "OrangeRingPowers",
+      "type": "rangeditem",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_ring_powers"
+    },
+    {
+      "name": "BlueRingPowers",
+      "type": "rangeditem",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ring_powers"
+    },
+    {
+      "name": "PinkRingPowers",
+      "type": "rangeditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_ring_powers"
+    },
+    {
+      "name": "IndigoRingPowers",
+      "type": "rangeditem",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indigo_ring_powers"
+    },
+    {
+      "name": "BlackRingPowers",
+      "type": "rangeditem",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_ring_powers"
+    },
+    {
+      "name": "WhiteRingPowers",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ring_powers"
+    },
+    {
+      "name": "RedRingInHand",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedRingRightClick",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowRingInHand",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YellowRingRightClick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yellow_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeRingInHand",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeRingRightClick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueRingInHand",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueRingRightClick",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PinkRingInHand",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PinkRingRightClick",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pink_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IndigoRingInHand",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indigo_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IndigoRingRightClick",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indigo_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteRingInHand",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteRingRightClick",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "white_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackRingInHand",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_ring_in_hand",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlasckRingRightClick",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_ring_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KarmaPointSystem",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_point_system",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WorldOfLanterns",
+      "type": "achievement",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "world_of_lanterns"
+    },
+    {
+      "name": "GiveLanternWorldAchievment",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_lantern_world_achievment",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EmotionalShard",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emotional_shard"
+    },
+    {
+      "name": "EmotionalShardOre",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emotional_shard_ore"
+    },
+    {
+      "name": "RingCore",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ring_core"
+    },
+    {
+      "name": "RingCoreRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ring_core_recipe"
+    },
+    {
+      "name": "BlankRingRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blank_ring_recipe"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "karma",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "isLantern",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "hasLantern",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "lanternType",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": "\"\""
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "lantern_transform",
+      "files": [
+        "untitled_2"
+      ],
+      "category": "player",
+      "subtitle": "Lantern Transformation"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.aalc.yellow_lantern_armor_boots": "Yellow Lantern Boots",
+      "item.aalc.orange_lantern_armor_chestplate": "Orange Lantern Suit Chest",
+      "item.aalc.white_ring_powers": "Ring Powers",
+      "item.aalc.blue_lantern_armor_chestplate": "Blue Lantern Suit Chest",
+      "item.aalc.black_lantern_armor_helmet": "Black Lantern Mask",
+      "item.aalc.black_ring_powers": "Ring Powers",
+      "item.aalc.rage_ring": "Red Lantern Ring",
+      "item.aalc.red_lantern_armor_helmet": "Red Lantern Mask",
+      "item.aalc.green_lantern_armor_boots": "Green Lantern Boots",
+      "itemGroup.tablantern_corps": "Lantern Corps",
+      "item.aalc.red_lantern_armor_boots": "Red Lantern Boots",
+      "item.aalc.yellow_lantern_armor_chestplate": "Yellow Lantern Suit Chest",
+      "item.aalc.emotional_shard": "Emotional Shard",
+      "item.aalc.pink_ring_powers": "Ring Powers",
+      "item.aalc.pink_lantern_armor_chestplate": "Pink Lantern Suit Chest",
+      "item.aalc.orange_lantern_armor_leggings": "Orange Lantern Suit Pants",
+      "item.aalc.fear_ring": "Sinestro Corps Ring",
+      "item.aalc.greed_ring": "Orange Lantern Ring",
+      "item.aalc.orange_lantern_armor_boots": "Orange Lantern Boots",
+      "item.aalc.will_ring_powers": "Ring Powers",
+      "item.aalc.yellow_ring_powers": "Ring Powers",
+      "item.aalc.compassion_ring": "Indigo Tribe Ring",
+      "block.aalc.emotional_shard_ore": "Emotional Shard Ore",
+      "item.aalc.indigo_lantern_armor_chestplate": "Indigo Lantern Suit Chest",
+      "item.aalc.green_lantern_armor_leggings": "Green Lantern Suit Pants",
+      "item.aalc.orange_ring_powers": "Ring Powers",
+      "advancements.world_of_lanterns.title": "World Of Lanterns",
+      "item.aalc.white_lantern_armor_boots": "White Lantern Boots",
+      "item.aalc.black_lantern_armor_boots": "Black Lantern Boots",
+      "item.aalc.indigo_ring_powers": "Ring Powers",
+      "item.aalc.love_ring": "Star Sapphire Ring",
+      "item.aalc.hope_ring": "Blue Lantern Ring",
+      "item.aalc.life_ring": "White lantern Ring",
+      "item.aalc.blank_ring": "Blank Ring",
+      "item.aalc.orange_lantern_armor_helmet": "Orange Lantern Mask",
+      "key.aalc.karma_gui_key": "Karma Gui Key",
+      "item.aalc.white_lantern_armor_chestplate": "White Lantern Suit Chest",
+      "item.aalc.ring_core": "Ring Core",
+      "item.aalc.indigo_lantern_armor_leggings": "Indigo Lantern Suit Pants",
+      "item.aalc.pink_lantern_armor_helmet": "Pink Lantern Mask",
+      "item.aalc.white_lantern_armor_helmet": "White Lantern Mask",
+      "advancements.world_of_lanterns.descr": "Join the World",
+      "item.aalc.indigo_lantern_armor_boots": "Indigo Lantern Boots",
+      "item.aalc.red_lantern_armor_chestplate": "Red Lantern Suit Chest",
+      "item.aalc.green_lantern_armor_chestplate": "Green Lantern Suit Chest",
+      "item.aalc.yellow_lantern_armor_helmet": "Yellow Lantern Mask",
+      "item.aalc.death_ring": "Black lantern Ring",
+      "item.aalc.green_lantern_armor_helmet": "Green Lantern Mask",
+      "item.aalc.pink_lantern_armor_boots": "Pink Lantern Boots",
+      "item.aalc.blue_lantern_armor_leggings": "Blue Lantern Suit Pants",
+      "item.aalc.black_lantern_armor_chestplate": "Black Lantern Suit Chest",
+      "subtitles.lantern_transform": "Lantern Transformation",
+      "item.aalc.indigo_lantern_armor_helmet": "Indigo Lantern Mask",
+      "item.aalc.blue_ring_powers": "Ring Powers",
+      "item.aalc.blue_lantern_armor_boots": "Blue Lantern Boots",
+      "item.aalc.black_lantern_armor_leggings": "Black Lantern Suit Pants",
+      "item.aalc.white_lantern_armor_leggings": "White Lantern Suit Pants",
+      "item.aalc.red_ring_powers": "Ring Powers",
+      "item.aalc.will_ring": "Green Lantern Ring",
+      "item.aalc.pink_lantern_armor_leggings": "Pink Lantern Suit Pants",
+      "item.aalc.blue_lantern_armor_helmet": "Blue Lantern Mask",
+      "item.aalc.red_lantern_armor_leggings": "Red Lantern Suit Pants",
+      "item.aalc.yellow_lantern_armor_leggings": "Yellow Lantern Suit Pants"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aalc",
+    "modName": "AgentAllan Lantern Corps",
+    "version": "1.0.0",
+    "author": "Eric, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "com.agentallan.aalc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
