@@ -7,13 +7,10 @@ The first step to becoming a lantern, is to get a Blank Lantern Ring
 To make a Blank Ring, you need to make a Ring Core.  
 A Ring Core is made up of 8 Emotional Shards and a Diamond Block.  
 Emotional Shards can be found inside Emotional Shard Ore
-![GitHub Logo](/images/EmotionalShardOreShow.png)
-Format: ![Alt Text](url)
-![GitHub Logo](/images/RingCoreRecipe.png)
-Format: ![Alt Text](url)
+![Emotional Shard Ore](/images/EmotionalShardOreShow.PNG)
+![Ring Core Recipe](/images/RingCoreRecipe.PNG)
 A Blank Ring can be made from a Ring Core and 7 Iron Ingots.
-![GitHub Logo](/images/BlankRingRecipe.png)
-Format: ![Alt Text](url)
+![Blank Ring Recipe](/images/BlankRingRecipe.PNG)
 
 
 After obtaining a Blank Ring, you must achieve the required Karma level for your selected color
